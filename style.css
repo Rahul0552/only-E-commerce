@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* background-color: #dfe6e9 */
+  /* background: #635b5b; */
+  /* color: aliceblue; */
+}
+
+/* banner style for contact us  */
+.banner>img{
+  height: 565px;
+  width: 100%;
+}
+
+@media screen and (min-width:100px) and (max-width:576px){
+  .banner>img{
+    height: 200px;
+    width: 100% !important;
+  }
+  
+}
+
+/* carousel style  */
+.carousel-item>img{
+  width: 100% !important;
+  height: 82vh;
+}
+@media screen and (min-width:100px) and (max-width:576px){
+  .carousel-item>img{
+    width: 100% !important;
+    height: 35vh;
+  }
+  
+}
+
+.navbar{
+  position: sticky;
+  /* position: fixed; */
+}
+
+/* .aa :: hover{
+  background-color: hsl(0, 89%, 49%);
+  text-decoration-color: brown;
+
+} */
+
+
+

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRAZY mall</title>
+    <!-- fav icon  -->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <!-- Bootstrap icons  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link external css  -->
+     <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- nav bar start  -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-bold me-5" style="color: #1decdb;" href="#"><span style="color: rgb(177, 2, 252);" class="fs-1 ms-3">CRAZY</span>mall</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 ">
+            <li class="nav-item">
+              <a class="nav-link active ms-5" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="./contact.html">contact</a>
+            </li>
+          </ul>
+
+            <!-- icons -->
+
+          <ul class="navbar-nav fs-3" >
+              <!-- <li class="nav-item bg-dark mx-5"> -->
+              <li class="nav-item">
+                <a class="nav-link me-2" href="./cart.html"><i class="bi bi-cart-check-fill"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i class="bi bi-person-fill"></i></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end  -->
+
+    <!-- Banner section start  -->
+     <section class="banner container-fluid my-3">
+      <img src="./assert/contact/contactUsBanner.png" alt="" class="img-fluid img-thumbnail">
+     </section>
+    <!-- Banner section end -->
+
+    <!-- contact us header start  -->
+     <div class="text-center my-3">
+        <h3 class="display-1">Contact <span style="color: green;">Us</span></h3>
+        <p>Stay connected with us and get solved your problems</p>
+     </div>
+    <!-- contact us header end  -->
+
+    <!-- get in touch withus section start  -->
+     <section class="contact_us container my-5 p-5 bg-body-tertiary border-warning border shadow">
+      <div class="row">
+        <!-- coloum for img or map  -->
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <img src="./assert/contact/contact.jpeg" alt="" width="100%" class="img-fluid img-thumbnail">
+
+         </div>
+         <!-- coloum for form content -->
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-1">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control fw-light fs-6" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">FIRST NAME:</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control fw-light fs-6" id="floatingInput1" placeholder="name@example.com">
+                <label for="floatingInput1">LAST NAME:</label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-floating mb-3">
+                <input type="tel" class="form-control fw-light fs-6" id="floatingInput2" placeholder="name@example.com">
+                <label for="floatingInput2" class="form-label">Mobile No:</label>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="inputPassword4" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="inputPassword4" placeholder="example123@gmail.com">
+              <!-- <div class="form-floating mb-3">
+                <input type="email" class="form-control fw-light fs-6" id="floatingInput2" placeholder="name@example.com" value="Example123@gmail.com">
+                <label for="floatingInput2" class="form-label">Email Id:</label>
+              </div> -->
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="inputPassword4" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <!-- add normal mobile and text area  -->
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Feed back</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            </div>
+
+            <!-- button  -->
+            <div class="d-grid gap-2 col-6 mx-auto py-3">
+              <button class="btn btn-success p-2" type="button">Contact</button>
+
+            </div>
+
+          </div>
+         </div>
+      </div>
+     </section>
+    <!-- get in touch withus section end  -->
+
+
+    <!-- FAQ Section start  -->
+     <div class="faq container rounded-3 shadow">
+      <!-- FAQ CONTANT  -->
+      <div class="accordion accordion-flush bg-body-tertiary" id="accordionFlushExample">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How Do I Place An Order ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Step 1: Finalise the product that you want to buy. <br>
+              Step 2: On the product page, click on BUY NOW. Otherwise, you can click on ADD TO CART and go to the CART option followed by CHECKOUT. <br>
+              Step 3: Complete the details of your order – Contact Information, Shipping Address and Gifting Options, if any. <br>
+              Step 4: Click on Continue to Shipping and select the shipping method. <br>
+              Step 5: Click on Continue to Payment and select the payment mode. <br>
+              Step 6: Click on Complete Order. <br>
+              
+              Once you complete the payment, your order will be placed successfully. <br>
+              If you have any further questions, you can call our helpline number +91 80768 67508 or reach out to our support team at <code>hello@crzymall.com</code></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Can I Buy Multiple Products in a Single Order ?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Add all the products you wish to buy to your cart using the <b>ADD TO CART</b> button and complete your order when your cart is ready. Multiple products in one order can help save shipping charges.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How Do i Know That My Order is Confirmed ?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">For all prepaid orders, the confirmation status will be automatically updated in the <b>My Account</b> section. Also, you will receive an order confirmation email. If your payment method is Cash on Delivery, you will get a call from IVR/ customer care on your registered contact details to confirm the order placed. Once you confirm, the order will be processed immediately.
+
+              We request you to add your email address and mobile number to your profile to stay updated regarding order delivery.</div>
+          </div>
+        </div>
+
+        
+      </div>
+     </div>
+    <!-- FAQ Section end  -->
+
+
+    <!-- addtional info  -->
+    <!-- <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          What are the Benfits Of Signing Up ?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Signing up for an account will enhance your experience while shopping. Your account allows you to:
+
+          Track all past and present orders at any time in one place.
+          Be a part of the loyalty program, get customised offers for your birthdays, enrol in the affiliate program and get emails and messages regarding offers and new product launches.
+          Never fill in your address and payment details more than once.
+          Rate and review products.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          How Do i Know That My Order is Confirmed ?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">For all prepaid orders, the confirmation status will be automatically updated in the <b>My Account</b> section. Also, you will receive an order confirmation email. If your payment method is Cash on Delivery, you will get a call from IVR/ customer care on your registered contact details to confirm the order placed. Once you confirm, the order will be processed immediately.
+
+          We request you to add your email address and mobile number to your profile to stay updated regarding order delivery.</div>
+      </div>
+    </div> -->
+    <!-- addtional info  -->
+
+    <!-- model box for register and login  start -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">SignIn</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">  
+            <!-- form application body start  -->
+            <form>
+              <div class="mb-3">
+                <label for="formfirstname" class="form-label">Email/Mobile Number</label>
+                <input type="text" class="form-control" id="formfirstname" placeholder="Enter Email or Mobile Number">
+              </div>
+              <div class="mb-3">
+                <label for="formpassword" class="form-label">Password</label>
+                <input type="text" class="form-control" id="formpassword" placeholder="Enter password">
+              </div>
+            </form>
+            <!-- form application body end  -->
+          </div>
+           <!-- form application body end/close  -->
+
+          <!-- model end footer for SignIn start -->
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-dismiss="modal" type="submit" >Submit</button>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">LogIn</button>
+          </div>
+          <!-- model end footer for SignIn close -->
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Register</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="formfirstname" class="form-label">Email/Mobile Number</label>
+                <input type="text" class="form-control" id="formfirstname" placeholder="Enter Email or Mobile Number">
+              </div>
+              <div class="mb-3">
+                <label for="formpassword" class="form-label">Password</label>
+                <input type="text" class="form-control" id="formpassword" placeholder="Enter password">
+              </div>
+              <div class="mb-3">
+                <label for="formpassword1" class="form-label">Re-Type Password</label>
+                <input type="text" class="form-control" id="formpassword1" placeholder="Enter Re-Type password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="submit" data-bs-dismiss="modal" aria-label="Close">Register</button>
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">SignIn</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="btn btn-primary" >Open first modal</button> -->       <!-- if u remove this it will not show in the new line (button)  -->
+    <!-- model box for register and login  end -->
+
+        <!-- subscribe to the newa letter section start  -->
+        <div class="container bg-dark text-white rounded-3 text-center py-3 p-5 mt-5">
+          <h1 style="color: orangered;">STAY UPDATED</h1>
+          <P>To get updated about our new product subscribe to our site.</P>
+          <div class="input-group mb-3 w-50 mx-auto">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text bg-warning" id="basic-addon2">subscribe</span>
+          </div>
+         </div>
+        <!-- subscribe to the newa letter section end  -->
+
+     <!-- footer start  -->
+     <div class="footer container-fluid mt-3 bg-dark text-white py-3">
+      <div class="container d-none d-sm-none d-md-block d-lg-block">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <h5 class="pb-3">Get to know us</h5>
+            <p><a href="" class="nav-link">About Us</a></p>
+            <p><a href="" class="nav-link">Carreers</a></p>
+            <p><a href="" class="nav-link">private policy</a></p>
+            <p><a href="" class="nav-link">services</a></p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <h5 class="pb-3">Connect with us</h5>
+            <p><a href="" class="nav-link">Instagram</a></p>
+            <p><a href="" class="nav-link">Facebook</a></p>
+            <p><a href="" class="nav-link">Telegram</a></p>
+            <p><a href="" class="nav-link">Twitter</a></p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <h5 class="pb-3">Make Money with us</h5>
+            <p><a href="" class="nav-link">sell on Crazy Mall</a></p>
+            <p><a href="" class="nav-link">Supply to Crazy Mall</a></p>
+            <p><a href="" class="nav-link">fullfillment by Crazy Mall</a></p>
+            <p><a href="" class="nav-link">Advertise your Products</a></p>
+            
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+            <h5 class="pb-3">Let US Help You</h5>
+            <p><a href="" class="nav-link">About Us</a></p>
+            <p><a href="" class="nav-link">Carreers</a></p>
+            <p><a href="" class="nav-link">private policy</a></p>
+            <p><a href="" class="nav-link">services</a></p>
+
+          </div>
+        </div>
+      </div>
+
+      <hr class="d-none d-sm-none d-md-block d-lg-block">
+
+        <!-- copy rights start -->
+         <div class="copyrights text-center">
+          <p>Copyright &copy; 1999 - 2024 CRAZY mall Operating Company, LLC.</p>
+          <p class="fs-5"> All Rights Reserved.</p>
+          <p>The CRAZY mall word mark is a registered trademark of CRAZY mall Operating Company, LLC in the US and other countries.</p>
+         </div>
+        <!-- copy rights end -->
+    </div>
+   <!-- footer end  -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
